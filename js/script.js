@@ -11,7 +11,7 @@ for(i = 0; i < 100; i++){
 
 
   if(numeri[i]%3 == 0){
-    
+
     console.log("Frizz");
   }else if (numeri[i]%5 == 0) {
     console.log("Buzz");
