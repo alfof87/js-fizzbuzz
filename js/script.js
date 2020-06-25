@@ -8,9 +8,16 @@
 var numeri = [];
 
 for(i = 0; i < 100; i++){
+
+
   if(numeri[i]%3 == 0){
-    console.log("Frizz")
+    
+    console.log("Frizz");
   }else if (numeri[i]%5 == 0) {
-    console.log("Buzz")
-  }
+    console.log("Buzz");
+  }else if (numeri[i]%15 == 0) {
+    console.log("FrizzBuzz");
+}else{
+
+ }
 }
